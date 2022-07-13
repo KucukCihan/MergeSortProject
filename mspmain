@@ -1,0 +1,16 @@
+# MergeSortProject
+
+
+[16,21,11,8,12,22] -> Merge Sort
+
+1-Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
+Answer- Step1-     [16,21,11]     |      [8,12,22]
+        Step2- [16,21]  |  [11]   |   [8,12]  |  [22]
+        Step3- [16] | [21] | [11] | [8] | [12] | [22]
+        Step4- [16,21] | [11]     | [8,12]     | [22]
+        Step5- [11,16,21]         | [8,12,22]
+        Step6-           [8,11,12,16,21,22]
+
+2-Big-O gösterimini yazınız.
+Answer- Her parçalayışımızda yarıya bölüyoruz (logn) ve bu işlemi her bir eleman için gerçekleştiriyoruz (n)
+logn * n = n.logn =>  O(nlogn) bulunur.
