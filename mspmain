@@ -13,4 +13,4 @@ Answer- Step1-     [16,21,11]     |      [8,12,22]
 
 2-Big-O gösterimini yazınız.
 Answer- Her parçalayışımızda yarıya bölüyoruz (logn) ve bu işlemi her bir eleman için gerçekleştiriyoruz (n)
-logn * n = n.logn =>  O(nlogn) bulunur.
+        logn * n = n.logn =>  O(nlogn) bulunur.
